@@ -34,6 +34,7 @@ int main() {
 	int o = s3.length();
 	
 	cout << lcs3(s1,s2,s3,m,n,o);
+	
 	return 0;
 }
 
