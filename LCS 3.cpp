@@ -20,6 +20,7 @@ int lcs3(string s1, string s2, string s3, int m, int n, int o, int cache[101][10
 int lcs3(string s1, string s2, string s3, int m, int n, int o){
     int cache[101][101][101];
     memset(cache,-1,sizeof(cache));
+	
     return lcs3(s1,s2,s3,m,n,o,cache);    
 }
 
